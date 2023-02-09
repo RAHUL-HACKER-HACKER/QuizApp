@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity10"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="QUIZ QUESTION"
+        android:background="#156585"
+        android:textColor="@color/white"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="Q.1 Which method can be defined only once in a program?"/>
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A.finalize method"
+            android:textSize="20dp"
+            android:textColor="#EA400B"/>
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B.main method"
+            android:textSize="20dp"
+            android:textColor="#EA400B"/>
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C.static method"
+            android:textSize="20dp"
+            android:textColor="#EA400B"/>
+        <RadioButton
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D.private method"
+            android:textSize="20dp"
+            android:textColor="#EA400B"/>
+
+
+
+    </RadioGroup>
+    <Button
+
+        android:layout_marginTop="30dp"
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="NEXT QUESTION"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <Button
+
+        android:layout_marginTop="30dp"
+        android:id="@+id/button12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="QUIT"
+        android:textSize="20dp"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Score"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            />
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Value"
+            android:textSize="20dp"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

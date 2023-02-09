@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity13"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:text="YOUR RESULT!"
+        android:background="#B824BD"
+        android:textStyle="bold|italic"
+        android:gravity="center"
+        android:textSize="40dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/value1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#2196F3"
+            android:text="value"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/value2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/red"
+            android:text="value"
+            android:padding="10dp"
+            />
+        <TextView
+            android:id="@+id/value3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="value"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/value4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:text="value"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/restartButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RESTART"
+            android:padding="20dp"
+            android:backgroundTint="#0C24AC"
+            android:layout_marginTop="100dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

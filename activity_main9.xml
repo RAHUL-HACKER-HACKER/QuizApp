@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9"
+    android:orientation="vertical"
+    android:background="#CE03D0F4">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/image"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="START QUIZ"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:padding="30dp"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER NAME"
+        android:gravity="center"
+        android:padding="20dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:background="#1B87DD"
+        android:layout_marginHorizontal="40dp"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="START"
+        android:textSize="25dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#F44336"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:text="ABOUT"
+        android:textSize="25dp"
+        android:backgroundTint="#0822B3"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>
